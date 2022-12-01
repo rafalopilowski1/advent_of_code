@@ -1,3 +1,6 @@
+# Folders
+.vscode
+out
 node_modules
-
+# Files
 puzzle_input.txt
