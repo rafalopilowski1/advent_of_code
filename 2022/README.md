@@ -1,5 +1,30 @@
 # Year 2022
 
-![2022 stars](https://img.shields.io/badge/dynamic/json?style=for-the-badge&prefix=%E2%9C%AF&labelColor=black&color=gold&label=2022&query=2022&url=https%3A%2F%2Faoc-badge-rafalopilowski1.vercel.app%2Fapi?cacheSeconds=3600)
+![Typescript](https://img.shields.io/badge/typescript-blue.svg?style=for-the-badge&logo=typescript&color=white)![2022 stars](https://img.shields.io/badge/dynamic/json?style=for-the-badge&prefix=%E2%9C%AF&labelColor=black&color=gold&label=2022&query=2022&url=https%3A%2F%2Faoc-badge-rafalopilowski1.vercel.app%2Fapi?cacheSeconds=3600)
 
-- Language: *`TypeScript`*
+## Days
+1. [Calorie Counting](/ex1/)
+2. [Rock Paper Scissors](/ex2/)
+3. [Rucksack Reorganization](/ex3/)
+4. [???](/ex4/)
+5. [???](/ex5/)
+6. [???](/ex6/)
+7. [???](/ex7/)
+8. [???](/ex8/)
+9. [???](/ex9/)
+10. [???](/ex10/)
+11. [???](/ex11/)
+12. [???](/ex12/)
+13. [???](/ex13/)
+14. [???](/ex14/)
+15. [???](/ex15/)
+16. [???](/ex16/)
+17. [???](/ex17/)
+18. [???](/ex18/)
+19. [???](/ex19/)
+20. [???](/ex20/)
+21. [???](/ex21/)
+22. [???](/ex22/)
+23. [???](/ex23/)
+24. [???](/ex24/)
+25. [???](/ex25/)

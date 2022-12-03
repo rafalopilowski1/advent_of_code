@@ -1,0 +1,12 @@
+{
+  "name": "ex19",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "author": "Rafał Opiłowski <rafalopilowski1@outlook.com>",
+  "scripts": {
+    "start": "tsx index.ts"
+  },
+  "dependencies": {
+    "tsx": "^3.12.1"
+  }
+}
