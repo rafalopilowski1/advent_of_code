@@ -6,7 +6,7 @@
 1. [Calorie Counting](/2022/ex01/)
 2. [Rock Paper Scissors](/2022/ex02/)
 3. [Rucksack Reorganization](/2022/ex03/)
-4. [???](/2022/ex04/)
+4. [Camp Cleanup](/2022/ex04/)
 5. [???](/2022/ex05/)
 6. [???](/2022/ex06/)
 7. [???](/2022/ex07/)
