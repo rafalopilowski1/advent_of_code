@@ -1,5 +1,5 @@
 {
-  "name": "ex11",
+  "name": "ex05",
   "version": "1.0.0",
   "main": "index.ts",
   "author": "Rafał Opiłowski <rafalopilowski1@outlook.com>",
@@ -7,6 +7,15 @@
     "start": "tsx index.ts"
   },
   "dependencies": {
-    "tsx": "^3.12.1"
+    "lodash.clonedeep": "^4.5.0"
+  },
+  "devDependencies": {
+    "@types/lodash.clonedeep": "^4.5.7",
+    "@types/node": "^18.11.10",
+    "@typescript-eslint/eslint-plugin": "^5.45.1",
+    "@typescript-eslint/parser": "^5.45.1",
+    "eslint": "^8.29.0",
+    "tsx": "^3.12.1",
+    "typescript": "^4.9.3"
   }
 }
