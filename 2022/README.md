@@ -8,7 +8,7 @@
 3. [Rucksack Reorganization](/2022/ex03/)
 4. [Camp Cleanup](/2022/ex04/)
 5. [Supply Stacks](/2022/ex05/)
-6. [???](/2022/ex06/)
+6. [Tuning Trouble](/2022/ex06/)
 7. [???](/2022/ex07/)
 8. [???](/2022/ex08/)
 9. [???](/2022/ex09/)
