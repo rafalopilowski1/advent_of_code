@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "main": "index.ts",
   "author": "Rafał Opiłowski <rafalopilowski1@outlook.com>",
+  "type": "module",
   "scripts": {
     "start": "tsx index.ts"
   },
