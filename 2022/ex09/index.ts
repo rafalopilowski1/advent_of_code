@@ -91,16 +91,15 @@ const moves = data.toString("utf-8").split("\n").map(move => {
             throw new Error("Invalid input (no direction)");
     }
 });
+
+// Part 1
 let head = new Node();
 const tail = new Node();
 head.next = tail;
-// Part 1
 moves.forEach(move => Node.move(move, head));
-console.log(head);
 console.log("Part 1: " + tail.visited.length);
 
 // Part 2 - faulty :( 
-
 head = new Node();
 let temp: Node = head;
 for (let i = 1; i <= 10; i++) {
