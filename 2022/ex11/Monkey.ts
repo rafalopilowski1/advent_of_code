@@ -2,6 +2,10 @@ import { DataType } from "./DataType";
 import { MonkeyProps } from "./MonkeyProps";
 import { OperationProps } from "./OperationProps";
 
+export enum OperationType {
+    Normal, Reduced
+}
+
 export class Monkey {
     static allMonkeys: Monkey[] = [];
     static modulo = BigInt(1);
@@ -25,7 +29,6 @@ export class Monkey {
         this.throwItem = (item: bigint, currentMonkey: Monkey) => {
             if (test(item))
                 Monkey.allMonkeys[throwItem.ifTrue].items.push(item);
-
             else
                 Monkey.allMonkeys[throwItem.ifFalse].items.push(item);
             currentMonkey.items.shift();
@@ -43,7 +46,7 @@ export class Monkey {
             }
         };
     }
-    static parseMonkeys(monkeyData: string[], part: number) {
+    static parseMonkeys(monkeyData: string[], part: OperationType) {
         let state: DataType | undefined;
         let counter = 0;
         let currentIndex: number | undefined;
@@ -63,10 +66,10 @@ export class Monkey {
             }
             if (state == DataType.Monkey) {
                 if (currentIndex !== undefined) {
-                    if (part == 1) {
+                    if (part == OperationType.Normal) {
                         currentDoWorkParts = (value) => value / BigInt(3);
-                    } else {
-                        currentDoWorkParts = (value) => value % Monkey.modulo; // Uncomment for Part 2
+                    } else if (part == OperationType.Reduced) {
+                        currentDoWorkParts = (value) => value % Monkey.modulo;
                     }
                     Monkey.allMonkeys.push(new Monkey({ index: currentIndex, operation: currentOperation, test: currentTest, testValue: currentTestValue, throwItem: currentThrowItem, items: currentItems, doWorkParts: currentDoWorkParts }));
                     currentItems = [];
@@ -79,8 +82,6 @@ export class Monkey {
             } else if (state == DataType.Operation) {
                 if (monkeyData[counter + 2] == "old")
                     currentOperation = { method: monkeyData[counter + 1], value: undefined };
-
-
                 else
                     currentOperation = { method: monkeyData[counter + 1], value: BigInt(monkeyData[counter + 2]) };
                 counter += 3;
