@@ -5,7 +5,7 @@
   "author": "Rafał Opiłowski <rafalopilowski1@outlook.com>",
   "type": "module",
   "scripts": {
-    "start": "tsx index.ts"
+    "start": "deno run --allow-read=./puzzle_input.txt index.ts "
   },
   "dependencies": {
     "lodash.clonedeep": "^4.5.0"

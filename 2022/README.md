@@ -15,7 +15,7 @@
 10. [Cathode-Ray Tube](/2022/ex10/)
 11. [Monkey in the Middle](/2022/ex11/)
 12. [Hill Climbing Algorithm](/2022/ex12/)
-13. [???](/2022/ex13/)
+13. [Distress Signal](/2022/ex13/)
 14. [???](/2022/ex14/)
 15. [???](/2022/ex15/)
 16. [???](/2022/ex16/)
