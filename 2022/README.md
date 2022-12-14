@@ -16,7 +16,7 @@
 11. [Monkey in the Middle](/2022/ex11/)
 12. [Hill Climbing Algorithm](/2022/ex12/)
 13. [Distress Signal](/2022/ex13/)
-14. [???](/2022/ex14/)
+14. [Regolith Reservoir](/2022/ex14/)
 15. [???](/2022/ex15/)
 16. [???](/2022/ex16/)
 17. [???](/2022/ex17/)
