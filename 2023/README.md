@@ -3,7 +3,7 @@
 ![Rust](https://img.shields.io/badge/rust-white.svg?style=for-the-badge&logo=rust&color=brown)![2023 stars](https://img.shields.io/badge/dynamic/json?style=for-the-badge&prefix=%E2%9C%AF&labelColor=black&color=gold&label=2023&query=2023&url=https%3A%2F%2Faoc-badge-rafalopilowski1.vercel.app%2Fapi?cacheSeconds=3600)
 
 ## Days
-1. [???](/2023/ex01/)
+1. [Trebuchet?!](/2023/ex01/)
 2. [???](/2023/ex02/)
 3. [???](/2023/ex03/)
 4. [???](/2023/ex04/)
