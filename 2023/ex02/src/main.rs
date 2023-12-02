@@ -19,8 +19,7 @@ fn part_one() -> Result<(), Box<dyn Error>> {
         let index: u32 = index_str.parse()?;
         for round in rounds.trim().split(';') {
             for bucket in round.split(",") {
-                let bucket = bucket.trim();
-                let (num, color) = bucket.split_once(' ').unwrap_or_default();
+                let (num, color) = bucket.trim().split_once(' ').unwrap_or_default();
                 let number: i32 = num.parse()?;
                 println!("{} {}", number, color);
                 match color {
@@ -53,13 +52,10 @@ fn part_two() -> Result<(), Box<dyn Error>> {
         let (mut red, mut green, mut blue) = (0, 0, 0);
         let line = line?;
         println!("{}", line);
-        let (index_part, rounds) = line.split_once(":").unwrap_or_default();
-        let (_, index_str) = index_part.split_once(' ').unwrap_or_default();
-        let index: u32 = index_str.parse()?;
+        let (_, rounds) = line.split_once(":").unwrap_or_default();
         for round in rounds.trim().split(';') {
             for bucket in round.split(",") {
-                let bucket = bucket.trim();
-                let (num, color) = bucket.split_once(' ').unwrap_or_default();
+                let (num, color) = bucket.trim().split_once(' ').unwrap_or_default();
                 let number: i32 = num.parse()?;
                 println!("{} {}", number, color);
                 match color {
