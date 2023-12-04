@@ -207,11 +207,10 @@ fn part_two() -> Result<(), Box<dyn Error>> {
             })
             .collect();
         if contact_numbers.len() == 2 {
-            let num = contact_numbers
+            sum += contact_numbers
                 .iter()
                 .map(digits_chars_to_number)
                 .product::<u32>();
-            sum += num;
         }
     });
     println!("{}", sum);
