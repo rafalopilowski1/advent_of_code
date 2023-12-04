@@ -121,13 +121,10 @@ fn part_one() -> Result<(), Box<dyn Error>> {
             })
             .collect();
 
-        contact_numbers.into_iter().for_each(|contact| {
-            let mut base_ten = 1;
-            for digit in contact.value.as_ref().unwrap() {
-                sum += digit.to_digit(10).unwrap() * base_ten;
-                base_ten *= 10;
-            }
-        });
+        sum += contact_numbers
+            .iter()
+            .map(digits_chars_to_number)
+            .fold(0, |acc, e| acc + e);
     });
 
     println!("{}", sum);
